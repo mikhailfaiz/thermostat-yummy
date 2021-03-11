@@ -1,0 +1,37 @@
+.boob {
+    position: absolute;
+    background-color: #f0f0f0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nipple {
+    position: absolute;
+    background: linear-gradient(to left, red 35%, blue);
+    top: 12.5px;
+    left: 12.5px;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.breast-container {
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+
+}
+
+.inner-boob {
+    position: absolute;
+    background-color: #fff;
+    top: 12.5px;
+    left: 12.5px;
+    height: 475px;
+    width: 475px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgb(110, 110, 110);
+}

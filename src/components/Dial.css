@@ -1,0 +1,13 @@
+.circle-plate {
+    background-color: rgb(54, 50, 50);
+    height: 425px;
+    width: 425px;
+    position: relative;
+}
+
+.graduations {
+    border-color: azure;
+    height:400px;
+    width: 400px;
+    position: absolute;
+}
