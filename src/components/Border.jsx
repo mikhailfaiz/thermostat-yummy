@@ -3,9 +3,9 @@ import './Border.css';
 
 function Border() {
     return (
-    <div className="breast-container">
-        <div className="boob">
-            <div className="inner-boob">
+    <div className="border-container">
+        <div className="first-border-layer">
+            <div className="second-border-layer">
                 <div className="nipple"></div>
             </div>
         </div>

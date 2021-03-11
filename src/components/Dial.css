@@ -1,13 +1,17 @@
-.circle-plate {
-    background-color: rgb(54, 50, 50);
-    height: 425px;
-    width: 425px;
-    position: relative;
+.graduations {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    border-radius: 50%;
+    border: dotted #ffffffbb 21.375px;
+    z-index: 4;
 }
 
-.graduations {
-    border-color: azure;
-    height:400px;
-    width: 400px;
+.dial-container {
     position: absolute;
+    margin: auto;
+    top:37.5px;
+    left: 37.5px;
+    width: 427.5px;
+    height: 427.5px;
 }

@@ -1,11 +1,10 @@
 import React from 'react';
+import './Dial.css';
 
 function Dial() {
     return (
-        <div className="circle-plate">
-            <div className="graduations">
-                <div className="temperature-meter"></div>
-            </div>
+        <div className="dial-container">
+            <div className="graduations"></div>
         </div>
     );
 }

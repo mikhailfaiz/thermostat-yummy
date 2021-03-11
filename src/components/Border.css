@@ -1,9 +1,10 @@
-.boob {
+.first-border-layer {
     position: absolute;
     background-color: #f0f0f0;
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .nipple {
@@ -15,17 +16,19 @@
     width: 450px;
     border-radius: 50%;
     margin: auto;
+    z-index: 1;
 }
 
-.breast-container {
-    position: relative;
+.border-container {
+    position: absolute;
     margin: auto;
     width: 500px;
     height: 500px;
+    z-index: 1;
 
 }
 
-.inner-boob {
+.second-border-layer {
     position: absolute;
     background-color: #fff;
     top: 12.5px;
@@ -34,4 +37,5 @@
     width: 475px;
     border-radius: 50%;
     box-shadow: 1px 1px 3px rgb(110, 110, 110);
+    z-index: 1;
 }
