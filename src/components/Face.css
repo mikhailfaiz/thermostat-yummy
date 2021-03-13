@@ -1,0 +1,44 @@
+.temp-reading-container {
+    position: absolute;
+    margin: auto;
+    top:25px;
+    left: 25px;
+    width: 450px;
+    height: 450px;
+    z-index: 2;
+}
+
+.circle-plate {
+    background-color: rgb(109, 114, 114);
+    top: 2.5%;
+    left: 2.5%;
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    z-index: 3;
+}
+
+
+.segment {
+    width: 92.5%;
+    height: 92.5%;
+    border-left: 19px solid transparent;
+    border-bottom: 35px solid rgb(109, 114, 114);
+    border-right: 19px solid transparent;
+    border-radius: 50%;
+    z-index: 6;
+    position:absolute;
+    transform: translateY(12px) translateX(-3px);
+}
+
+.sun-icon {
+    color:#FFFFFF;
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    width: 10%;
+    height: 10%;
+    margin: auto;
+}
