@@ -10,6 +10,7 @@
 
 .circle-plate {
     background-color: rgb(109, 114, 114);
+    transition: background-color 0.5s ease;
     top: 2.5%;
     left: 2.5%;
     height: 95%;
@@ -20,17 +21,44 @@
     z-index: 3;
 }
 
+.circle-plate-heating {
+    background-color: rgb(224, 13, 13); 
+    transition: background-color 0.5s ease;
+    top: 2.5%;
+    left: 2.5%;
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    z-index: 3;
+}
+
+.circle-plate-cooling {
+    background-color: rgb(43, 10, 230); 
+    transition: background-color 0.5s ease;
+    top: 2.5%;
+    left: 2.5%;
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    z-index: 3;
+
+}
+
 
 .segment {
     width: 92.5%;
     height: 92.5%;
     border-left: 19px solid transparent;
-    border-bottom: 35px solid rgb(109, 114, 114);
+    border-bottom: 35px solid rgb(93, 97, 97);
     border-right: 19px solid transparent;
     border-radius: 50%;
-    z-index: 6;
+    z-index: 2;
     position:absolute;
-    transform: translateY(12px) translateX(-3px);
+    transform: translateY(0px) translateX(-1.2px);
 }
 
 .sun-icon {

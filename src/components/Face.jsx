@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Face.css';
 import Reading from './Reading';
 
-function Face({tc, tt}) {
+function Face({tc, tt, mode}) {
+    const [faceMode, setFaceMode] = useState("circle-plate");
+    const onFaceModeChange = () => {
+        if (mode === "idle") {
+            setFaceMode("circle-plate");
+        } else if (mode === "heating") {
+            setFaceMode("circle-plate-heating");
+        } else {
+            setFaceMode("circle-plate-cooling");
+        }
+    }
+    useEffect(() => onFaceModeChange(),[mode]);
     return (
         <div className="temp-reading-container">
-            <div className="circle-plate">
+            <div className={faceMode}>
                 <Reading tc={tc} tt={tt}/>
                 <div className="sun-icon">
                     <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-                        <path class="svg-sun-icon" d="M12, 9c1.65, 0, 3, 1.35, 3, 3s-1.35, 3-3, 3s-3-1.35-3-3 S10.35, 9, 12, 9 
+                        <path className="svg-sun-icon" d="M12, 9c1.65, 0, 3, 1.35, 3, 3s-1.35, 3-3, 3s-3-1.35-3-3 S10.35, 9, 12, 9 
                             M12, 7c-2.76, 0-5, 2.24-5, 5s2.24, 5, 5, 5s5-2.24, 5-5 S14.76, 7, 12, 7L12, 7z 
                             M2, 13l2, 0c0.55, 0, 1-0.45, 1-1s-0.45-1-1-1l-2, 0c-0.55, 0-1,0.45-1, 1S1.45,13,2, 13z 
                             M20, 13l2, 0c0.55, 0, 1-0.45, 1-1 s-0.45-1-1-1l-2, 0c-0.55, 0-1, 0.45-1, 1S19.45, 13, 20, 13z 
@@ -26,8 +37,8 @@ function Face({tc, tt}) {
                             0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path>
                     </svg>
                 </div>
-                <div className="segment"></div>
             </div>
+            <div className="segment"></div>
         </div>
     );
 }

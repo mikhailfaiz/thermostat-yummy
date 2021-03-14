@@ -3,7 +3,7 @@
     height: 90%;
     position: absolute;
     border-radius: 50%;
-    border: dotted #ffffffbb 21.375px;
+    border: #ffffffbb 21.375px;
     z-index: 4;
 }
 
@@ -14,4 +14,16 @@
     left: 37.5px;
     width: 427.5px;
     height: 427.5px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.center {
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+    position: absolute;
+    margin: auto;
+    top:213.75px;
+    left: 213.75px;
 }

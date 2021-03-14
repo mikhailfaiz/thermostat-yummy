@@ -6,8 +6,8 @@
     margin:auto;
     text-align: center;
     top: 30%;
-    height: 427.5px;
-    width: 427.5px;
+    height: 80px;
+    width: 100%;
     z-index: 4;
 }
 
@@ -19,7 +19,7 @@
     margin:auto;
     text-align: center;
     top: 50%;
-    height: 427.5px;
-    width: 427.5px;
+    height: 50px;
+    width: 100%;
     z-index: 4;
 }
