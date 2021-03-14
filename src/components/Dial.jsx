@@ -15,7 +15,7 @@ function Dial({onTTChange}) {
         const yOrigin = origin.getBoundingClientRect().top;
         const xCoordinate = e.pageX;
         const yCoordinate = e.pageY;
-        const bearing = Math.atan2(xCoordinate-xOrigin, -(yCoordinate-yOrigin)) * (180/Math.PI);
+        const bearing = Math.atan2(xCoordinate-xOrigin, -(yCoordinate-yOrigin)) * (180/Math.PI) ;
         const value = 65 + Math.round(bearing/10);
         onTTChange(value);
         console.log(bearing);
