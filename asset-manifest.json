@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.79d1bbb5.chunk.css",
-    "main.js": "/static/js/main.a182706e.chunk.js",
-    "main.js.map": "/static/js/main.a182706e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ee7cd85e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ee7cd85e.js.map",
-    "static/js/2.08367438.chunk.js": "/static/js/2.08367438.chunk.js",
-    "static/js/2.08367438.chunk.js.map": "/static/js/2.08367438.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.79d1bbb5.chunk.css.map": "/static/css/main.79d1bbb5.chunk.css.map",
-    "static/js/2.08367438.chunk.js.LICENSE.txt": "/static/js/2.08367438.chunk.js.LICENSE.txt"
+    "main.css": "/thermostat-yummy/static/css/main.79d1bbb5.chunk.css",
+    "main.js": "/thermostat-yummy/static/js/main.a182706e.chunk.js",
+    "main.js.map": "/thermostat-yummy/static/js/main.a182706e.chunk.js.map",
+    "runtime-main.js": "/thermostat-yummy/static/js/runtime-main.13e7b104.js",
+    "runtime-main.js.map": "/thermostat-yummy/static/js/runtime-main.13e7b104.js.map",
+    "static/js/2.08367438.chunk.js": "/thermostat-yummy/static/js/2.08367438.chunk.js",
+    "static/js/2.08367438.chunk.js.map": "/thermostat-yummy/static/js/2.08367438.chunk.js.map",
+    "index.html": "/thermostat-yummy/index.html",
+    "static/css/main.79d1bbb5.chunk.css.map": "/thermostat-yummy/static/css/main.79d1bbb5.chunk.css.map",
+    "static/js/2.08367438.chunk.js.LICENSE.txt": "/thermostat-yummy/static/js/2.08367438.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee7cd85e.js",
+    "static/js/runtime-main.13e7b104.js",
     "static/js/2.08367438.chunk.js",
     "static/css/main.79d1bbb5.chunk.css",
     "static/js/main.a182706e.chunk.js"
